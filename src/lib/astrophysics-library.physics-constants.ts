@@ -140,6 +140,7 @@ export class CPhysicsConstants {
         console.log( this.constants );
     } // eo logConstants method
 
+
     /**
      * toJSON method. 
      * 
@@ -170,7 +171,7 @@ export class CPhysicsConstants {
     /**
      * meter2au method. 
      * 
-     * this method return the public and protected object properties.
+     * this method convert meters to astronomical unit.
      *
      * @remarks
      * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
@@ -186,7 +187,7 @@ export class CPhysicsConstants {
     /**
      * au2meter method. 
      * 
-     * this method return the public and protected object properties.
+     * this method convert astronomical unit to meters.
      *
      * @remarks
      * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
@@ -202,7 +203,7 @@ export class CPhysicsConstants {
     /**
      * au2kilometer method. 
      * 
-     * this method return the public and protected object properties.
+     * this method convert astronomical unit to kilometers.
      *
      * @remarks
      * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
@@ -218,7 +219,7 @@ export class CPhysicsConstants {
     /**
      * meter2pc method. 
      * 
-     * this method return the public and protected object properties.
+     * this method convert meters to parsec.
      *
      * @remarks
      * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
@@ -234,7 +235,7 @@ export class CPhysicsConstants {
     /**
      * pc2meter method. 
      * 
-     * this method return the public and protected object properties.
+     * this method convert parsec to meters.
      *
      * @remarks
      * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
@@ -250,7 +251,7 @@ export class CPhysicsConstants {
     /**
      * pc2kilometer method. 
      * 
-     * this method return the public and protected object properties.
+     * this method convert parsec to kilometers.
      *
      * @remarks
      * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
@@ -266,7 +267,7 @@ export class CPhysicsConstants {
     /**
      * pc2au method. 
      * 
-     * this method return the public and protected object properties.
+     * this method convert parsec to astronomical unit.
      *
      * @remarks
      * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
@@ -282,7 +283,7 @@ export class CPhysicsConstants {
     /**
      * au2pc method. 
      * 
-     * this method return the public and protected object properties.
+     * this method convert astronomical unit to parsec.
      *
      * @remarks
      * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
@@ -298,7 +299,7 @@ export class CPhysicsConstants {
     /**
      * lr2pc method. 
      * 
-     * this method return the public and protected object properties.
+     * this method convert light year unit to parsec.
      *
      * @remarks
      * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
@@ -314,7 +315,7 @@ export class CPhysicsConstants {
     /**
      * lr2au method. 
      * 
-     * this method return the public and protected object properties.
+     * this method convert light year to astronomical unit.
      *
      * @remarks
      * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
@@ -330,7 +331,7 @@ export class CPhysicsConstants {
     /**
      * lr2meter method. 
      * 
-     * this method return the public and protected object properties.
+     * this method convert light year to meter.
      *
      * @remarks
      * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
@@ -346,7 +347,7 @@ export class CPhysicsConstants {
     /**
      * lr2kilometer method. 
      * 
-     * this method return the public and protected object properties.
+     * this method convert light year to kilometer.
      *
      * @remarks
      * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
@@ -362,7 +363,7 @@ export class CPhysicsConstants {
     /**
      * meter2lr method. 
      * 
-     * this method return the public and protected object properties.
+     * this method convert meter to light year.
      *
      * @remarks
      * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
@@ -378,7 +379,7 @@ export class CPhysicsConstants {
     /**
      * au2lr method. 
      * 
-     * this method return the public and protected object properties.
+     * this method convert astronomical unit to light year.
      *
      * @remarks
      * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
@@ -394,7 +395,7 @@ export class CPhysicsConstants {
     /**
      * pc2lr method. 
      * 
-     * this method return the public and protected object properties.
+     * this method convert parsec to light year.
      *
      * @remarks
      * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
