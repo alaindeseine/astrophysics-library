@@ -95,6 +95,7 @@ export class CPhysicsConstants {
         this.constants.push( new CConstant( 'Astronomical unit','au', 149597870700, 'm', 'Astronomical unit is the distance from Earth to the Sun' ) );
         this.constants.push( new CConstant( 'Parsec','pc', 648000 / Math.PI * 149597870700, 'm', 'The parsec is a unit of length used to measure large distances to astronomical objects outside the Solar System. A parsec is defined as the distance at which one astronomical unit subtends an angle of one arcsecond,[1] which corresponds to 648000/π astronomical units.' ) );
         this.constants.push( new CConstant( 'Light year','lr', 9460730472580800, 'm', 'Light-year is the distance that light travels in vacuum in one Julian year (365.25 days).' ) );
+        this.constants.push( new CConstant( 'Electronvolt','eV', 1.602176565e-19, 'J', '' ) );
 
         // Set physical quantities
 
@@ -108,6 +109,11 @@ export class CPhysicsConstants {
         this.constants.push( new CConstant( 'Solar radius','R☉', 696342000, 'm', '' ) );
         this.constants.push( new CConstant( 'Earth radius','R⊕', 6378137, 'm', '' ) );
         this.constants.push( new CConstant( 'Lunar radius','RL', 1737400, 'm', '' ) );
+
+        /** Particle mass */
+        this.constants.push( new CConstant( 'Electron mass','ML', 9.10938291e-31, 'kg', '' ) );
+        this.constants.push( new CConstant( 'Neutron mass','ML', 1.67493e-27, 'kg', '' ) );
+        this.constants.push( new CConstant( 'Proton mass','ML', 1.672649e-27, 'kg', '' ) );
 
 
         this.constants.forEach( element => {
@@ -414,5 +420,43 @@ export class CPhysicsConstants {
         return this.meter2lr( this.pc2meter( value ) );
     } // eo pc2lr method
 
+
+    /**
+     * unit of mass conversion helpers
+     */
+
+
     
+    /**
+     * kg2ev method. 
+     * 
+     * this method convert kilogram to electronvolt.
+     *
+     * @remarks
+     * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
+     *
+     * @beta
+     */
+
+    public kg2ev( value: number ): number {
+        return Math.round( ( value / this.eV * Math.pow( this.c, 2 ) ) * 1000000) / 1000000;
+    } // eo kg2ev method
+
+
+    /**
+     * ev2kg method. 
+     * 
+     * this method convert kilogram to electronvolt using Albert Einstein formula E=mc2.
+     *
+     * @remarks
+     * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
+     *
+     * @beta
+     */
+
+    public ev2kg( value: number ): number {
+        return value * this.eV / Math.pow( this.c, 2 );
+    } // eo ev2kg method
+
+
 }
