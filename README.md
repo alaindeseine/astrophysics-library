@@ -2,6 +2,11 @@
 
 [![npm version](https://badge.fury.io/js/%40cabinfo.eu%2Fastrophysics-library.svg)](https://badge.fury.io/js/%40cabinfo.eu%2Fastrophysics-library)
 [![HitCount](http://hits.dwyl.io/adeseine/@cabinfoeu/astrophysics-library.svg)](http://hits.dwyl.io/adeseine/@cabinfoeu/astrophysics-library)
+![NPM](https://img.shields.io/npm/l/@cabinfo.eu/astrophysics-library.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/alaindeseine/astrophysics-library.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/alaindeseine/astrophysics-library.svg)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/alaindeseine/astrophysics-library.svg)
+
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.0.
 

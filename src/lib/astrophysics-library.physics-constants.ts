@@ -97,12 +97,19 @@ export class CPhysicsConstants {
         this.constants.push( new CConstant( 'Light year','lr', 9460730472580800, 'm', 'Light-year is the distance that light travels in vacuum in one Julian year (365.25 days).' ) );
 
         // Set physical quantities
+
+        /** Solar system object mass */
         this.constants.push( new CConstant( 'Solar mass','M☉', 1.9884e30, 'kg', '' ) );
         this.constants.push( new CConstant( 'Earth mass','M⊕', 5.9722e24, 'kg', '' ) );
         this.constants.push( new CConstant( 'Lunar mass','ML', 7.342e22, 'kg', '' ) );
         this.constants.push( new CConstant( 'Jupiter mass','MJ', 1.8986e27, 'kg', '' ) );
 
-        
+        /** Solar system object radius */
+        this.constants.push( new CConstant( 'Solar radius','R☉', 696342000, 'm', '' ) );
+        this.constants.push( new CConstant( 'Earth radius','R⊕', 6378137, 'm', '' ) );
+        this.constants.push( new CConstant( 'Lunar radius','RL', 1737400, 'm', '' ) );
+
+
         this.constants.forEach( element => {
             this[element.symbol]    = element.value;
         });
